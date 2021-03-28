@@ -1,0 +1,22 @@
+# Coverage configuration to control coverage.py
+
+[run]
+branch = True
+omit =
+    # omit everything in the virtual environment
+    ./.venv/*
+    # omit the visual studio code directory
+    ./.vscode/*
+    # omit the unit tests from the coverage
+    ./tests/*
+dynamic_context = test_function
+
+[report]
+exclude_lines =
+    def .* -> pd.Series
+fail_under = 90.0
+precision = 2
+
+[html]
+title = IFRS17 Data Processing Library
+show_contexts = true

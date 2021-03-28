@@ -1,0 +1,19 @@
+# Project dependencies to match Databricks Runtime 7.3
+pyspark==3.0.1
+pandas==1.0.1
+pyarrow==1.0.1
+numpy==1.18.1
+pytz==2019.3
+
+# Linting and security checking
+flake8
+pep8-naming
+flake8-docstrings
+flake8-bandit
+
+# Editor utilities
+rope
+
+# Testing and coverage
+coverage>=5.2.1
+unittest-xml-reporting>=3.0.4

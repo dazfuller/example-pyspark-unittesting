@@ -1,0 +1,6 @@
+id,date,date_key,day,day_name,day_name_short,month,month_name,month_name_short,year,week_number
+1609459200,2021-01-01,20210101,1,Friday,Fri,1,January,Jan,2021,53
+1609545600,2021-01-02,20210102,2,Saturday,Sat,1,January,Jan,2021,53
+1609632000,2021-01-03,20210103,3,Sunday,Sun,1,January,Jan,2021,53
+1609718400,2021-01-04,20210104,4,Monday,Mon,1,January,Jan,2021,1
+1609804800,2021-01-05,20210105,5,Tuesday,Tue,1,January,Jan,2021,1
